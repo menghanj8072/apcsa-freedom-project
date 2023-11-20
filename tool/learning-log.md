@@ -1,16 +1,27 @@
 # Tool Learning Log
 
-Tool: **X**
+Tool: **Unity**
 
-Project: **X**
+Project: **2D platformer game**
 
 ---
+11/1/2023
+* The tutorial I followed today was https://youtu.be/on9nwbZngyw?si=o9218hhajvdi9a0U
+* Learned how to import free assets from unity store, how to use tile plattes. After that, I made a own game scene using the free sprites from asset.
+  
+11/19/2023
+* This is the tutorial that I followed today https://www.youtube.com/watch?v=XtQMytORBmM. Finished step 1-2 only
+* Learned to write in C# and add properties to gameobjects. After that, I played around with different properties to see what it does to the gameobjects.
+  
+**Notes:**
+- Project panel - contains sprites, sound effect, scripts, etc.
+- Hierarchy panel  - contains all the stuffs in the current scene.
+- Inspector panel - changing properties of gameobjects.
+- Scene panel - shows what is in the current scene.
+- Void Start () - runs the code inside once soon as the script is enabled.
+- Void Update () - runs constantly and will run every line of code inside it, every single frame.
 
-X/X/X:
-* Text
-
-X/X/X:
-* Text
+- My next step is try to finish this tutorial and move on finding new tutorials to follow.
 
 
 <!-- 
