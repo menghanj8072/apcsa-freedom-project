@@ -23,6 +23,16 @@ Project: **2D platformer game**
 
 - My next step is try to finish this tutorial and move on finding new tutorials to follow.
 
+12/3/2023
+* Continue of https://www.youtube.com/watch?v=XtQMytORBmM. Finished step 3.
+* Learned how to spawn and move gameobject using C#. After that, I played around with the rate and properties to see what it does to the gameobjects.
+
+**Notes**
+- Drag gameObject to the project creates prefabricated gameobject (blueprint)
+- Debug.Log() - sends message to the console
+- Destroy() - deletes gameobject
+
+- My next step is to finish part 4 and 5 of the tutorial
 
 <!-- 
 * Links you used today (websites, videos, etc)
