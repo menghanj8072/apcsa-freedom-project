@@ -34,6 +34,17 @@ Project: **2D platformer game**
 
 - My next step is to finish part 4 and 5 of the tutorial
 
+12/10/2023
+* Continue of Continue of https://www.youtube.com/watch?v=XtQMytORBmM. Finished step 4 and 5
+* Learned how to add collisions and add game over screen. After that, I played around with the collision setting by changing the size of the collision area.
+
+**Notes**
+- To add UI into the game, need to include `UnityEngine.UI` on top of the script.
+- `Tag` is used to reference a component when one of the gameobject is not in the scene.
+- Public function can run from another script, but need to add reference
+
+- My next step is to either find a new tutorial to follow or continue building on the game with some recommended ideas from the tutorial creator.
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
