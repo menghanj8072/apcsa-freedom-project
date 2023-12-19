@@ -22,7 +22,7 @@ void update()
 ```
 After finishing part I and II, I spent the next few weeks on finishing part III to part V. I eventually finished the tutorial. From this tutorial, I learned that learning to write in C# is a very important part of making a game to function in unity. My Freedom Project goal for winter break is to search a tutorial that teaches C# in unity. 
 
-For enginnering design process, I'm still in step **2 research the problem** because I'm still researching for more tutorials to follow to learn more about my tool. In addition, one new skill I learned was **Time management**. This is the new skill I learned because I planned out what parts of the tutorial I should follow each week.
+For enginnering design process, I'm still in step **2 research the problem** because I'm still researching for more tutorials to follow to learn more about my tool. In addition, one new skill I learned was **Time management**. This is the new skill I learned because I learned to plan out what parts of the tutorial I should follow each week.
 
 [Previous](entry01.md) | [Next](entry03.md)
 
