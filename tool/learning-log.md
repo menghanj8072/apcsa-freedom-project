@@ -47,8 +47,8 @@ Project: **2D platformer game**
 
 1/29/2024
 * New tutorial I'm currently following is https://www.youtube.com/watch?v=IFayQioG71A.
-* Learned different types of variables, accessor, how to write function, conditional, array, arraylist, loop and class in C#. 
-*I finished this tutorial. It was very quick one. I found out that C# is very similar to Java.
+* Learned different types of variables, accessor, how to write function, conditional, array, arraylist, loop and class in C#.
+* I finished this tutorial. It was very quick one. I found out that C# is very similar to Java.
 
 -My next step is to search new tutorial to practice writing C#.
 
