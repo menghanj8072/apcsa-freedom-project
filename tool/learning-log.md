@@ -45,6 +45,13 @@ Project: **2D platformer game**
 
 - My next step is to either find a new tutorial to follow or continue building on the game with some recommended ideas from the tutorial creator.
 
+1/29/2024
+* New tutorial I'm currently following is https://www.youtube.com/watch?v=IFayQioG71A.
+* Learned different types of variables, accessor, how to write function, conditional, array, arraylist, loop and class in C#. 
+*I finished this tutorial. It was very quick one. I found out that C# is very similar to Java.
+
+-My next step is to search new tutorial to practice writing C#.
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
