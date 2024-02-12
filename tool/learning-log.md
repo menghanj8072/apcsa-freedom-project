@@ -52,6 +52,20 @@ Project: **2D platformer game**
 
 -My next step is to search new tutorial to practice writing C#.
 
+2/11/2024
+* New tutorial I'm currently following is https://www.youtube.com/watch?v=9tMvzrqBUP8
+* I didn't finish the tutorial
+  
+What I learned so far from this tutorial:
+* Destroy(gameobject, time) - destroy gameobjects
+* OnMouseDown() - detects mouse click
+* Input. - to get keyboard inputs
+* AddForce() - adding force to a gameobject
+* .Velocity - adds velocity to a gameobject
+
+- My next step is to finish this tutorial and move on planning for MVP.
+
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
