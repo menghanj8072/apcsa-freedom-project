@@ -67,8 +67,8 @@ What I learned so far from this tutorial:
 
 3/3/2024
 * In the past few weeks, I have finished the [tutorial](https://www.youtube.com/watch?v=9tMvzrqBUP8) that I didn't finish last time. I also spent some time working on my MVP.
-* I didn't tried to create something on my own. What I have tried was creating the same example as the guy did in the video for the part about collison.
-* 
+* I didn't tried to create something on my own. What I have tried was creating the same example as the guy did in the video for the part about collision.
+
 **Notes**
 * To load a new scene to the game, we have to add unityEngine.SceneManagement.
 * .getAxis() - gets value from the axis. Example: input.getAxis("Horizontial") gives the horizontal axis values.
