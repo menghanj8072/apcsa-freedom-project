@@ -12,7 +12,7 @@ Project: **2D platformer game**
 11/19/2023
 * This is the tutorial that I followed today https://www.youtube.com/watch?v=XtQMytORBmM. Finished step 1-2 only
 * Learned to write in C# and add properties to gameobjects. After that, I played around with different properties to see what it does to the gameobjects.
-  
+
 **Notes:**
 - Project panel - contains sprites, sound effect, scripts, etc.
 - Hierarchy panel  - contains all the stuffs in the current scene.
@@ -68,6 +68,7 @@ What I learned so far from this tutorial:
 3/3/2024
 * In the past few weeks, I have finished the [tutorial](https://www.youtube.com/watch?v=9tMvzrqBUP8) that I didn't finish last time. I also spent some time working on my MVP.
 * I didn't tried to create something on my own. What I have tried was creating the same example as the guy did in the video for the part about collison.
+* 
 **Notes**
 * To load a new scene to the game, we have to add unityEngine.SceneManagement.
 * .getAxis() - gets value from the axis. Example: input.getAxis("Horizontial") gives the horizontal axis values.
