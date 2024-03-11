@@ -77,7 +77,7 @@ What I learned so far from this tutorial:
 
 3/10/2024
 * The new tutorial I'm following right now is https://www.youtube.com/watch?v=hkaysu1Z-N8&t=182s.
-* I didn't go far in tutorial. I download the assets and had to spend sometime figuring out the settings for animation, since I have different version of unity compare to the one in the video. I will spend some time search recent year videos about animation in 2d unity.
+* I didn't go far in tutorial. I download the assets and had to spend sometime figuring out the settings for animation, since I have different version of unity compare to the one in the video. I will spend some time search recent year videos about animation in 2d unity to understand the animation settings.
 
 * My next step is to continue following the tutorial and also working on my MVP.
 <!-- 
