@@ -75,7 +75,11 @@ What I learned so far from this tutorial:
 
 - My next step is to continue working on my MVP and maybe move on searching tutorials about animation in 2d unity.
 
+3/10/2024
+* The new tutorial I'm following right now is https://www.youtube.com/watch?v=hkaysu1Z-N8&t=182s.
+* I didn't go far in tutorial. I download the assets and had to spend sometime figuring out the settings for animation, since I have different version of unity compare to the one in the video. I will spend some time search recent year videos about animation in 2d unity.
 
+* My next step is to continue following the tutorial and also working on my MVP.
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
