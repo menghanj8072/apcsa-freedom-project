@@ -30,7 +30,7 @@ I have designed my own character and environment sprites. I still need to create
 
 ![mvp-sprites](https://github.com/menghanj8072/apcsa-freedom-project/assets/91750586/21a2338e-bf87-4a56-86f9-b18fad06fea7)
 
-For the engineering design process, I'm in step **5 create a prototype** because I’m starting to work towards my MVP. As I’m designing sprites and working towards my MVP, one new skill I have developed through this process is **creativity**.
+For the engineering design process, I'm in step **2 Research the problem and 5 create a prototype** because I'm still researching tutorials to learnabout my tool and I also started to work towards my MVP. As I’m designing sprites and working towards my MVP, one new skill I have developed through this process is **creativity**.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
