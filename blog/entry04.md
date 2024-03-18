@@ -26,10 +26,11 @@ Destroy(collision.gameObject);
 What this code does, is the gameObject is able to move on the horizontal axis. If the gameobject collides with another gameobject with the enemy tag, the gameobject will get destroyed.
 
 ### MVP
-I have designed my own character and environment sprites. I still need to create more sprites, but here is what I have so far. I didn’t make much progress on my mvp. What I have done so far was adding the sprites into unity and designing the first level of the game. I haven’t really spent much time working on the actual code that will run the game.
+I have designed my own character and environment sprites. I still need to create more sprites. I didn’t make much progress on my MVP. What I have done so far was adding the sprites into unity and designing the first level of the game. I haven’t really spent much time working on the actual code that will run the game. Here is what I have so far for the sprites:
 
-For the engineering design process, I'm in step 5 create a prototype because I’m starting to work towards my mvp. As I’m designing sprites and working towards my MVP, one new skill I have developed through this process is creativity.
+![mvp-sprites](https://github.com/menghanj8072/apcsa-freedom-project/assets/91750586/21a2338e-bf87-4a56-86f9-b18fad06fea7)
 
+For the engineering design process, I'm in step **5 create a prototype** because I’m starting to work towards my MVP. As I’m designing sprites and working towards my MVP, one new skill I have developed through this process is **creativity**.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
