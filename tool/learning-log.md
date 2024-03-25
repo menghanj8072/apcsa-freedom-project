@@ -80,6 +80,11 @@ What I learned so far from this tutorial:
 * I didn't go far in tutorial. I download the assets and had to spend sometime figuring out the settings for animation, since I have different version of unity compare to the one in the video. I will spend some time search recent year videos about animation in 2d unity to understand the animation settings.
 
 * My next step is to continue following the tutorial and also working on my MVP.
+
+3/24/2024
+* I found this recent year video about unity 2D animation https://www.youtube.com/watch?v=Sg_w8hIbp4Y. I watched the video, and the animation settings were simiar to the ones I have. I learned how to connect the animations together in the animator tab. I followed the steps in the video and I applied it to the character from the asset I downloaded from the last video. 
+
+* My next step is to try applied what I learned from this video to my mvp.
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
