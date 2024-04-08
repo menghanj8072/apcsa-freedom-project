@@ -87,11 +87,8 @@ What I learned so far from this tutorial:
 * My next step is to try applied what I learned from this video to my mvp.
 
 4/2/2024
-* https://www.youtube.com/watch?v=-7I0slJyi8g
-*
-*
-
-
+* I learned a little about switching levels from some of the previous tutorials I had followed. I still need help with switching levels, so I decide to find a new tutorial. I found this one that teaches how to switch levels with trigger area https://www.youtube.com/watch?v=-7I0slJyi8g.
+* After watching the video, I learned that switching levels wasn't really difficult. I was able to apply what I learned from the tutorial onto my MVP.
 
 <!-- 
 * Links you used today (websites, videos, etc)
