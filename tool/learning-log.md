@@ -90,6 +90,9 @@ What I learned so far from this tutorial:
 * I learned a little about switching levels from some of the previous tutorials I had followed. I still need help with switching levels, so I decide to find a new tutorial. I found this one that teaches how to switch levels with trigger area https://www.youtube.com/watch?v=-7I0slJyi8g.
 * After watching the video, I learned that switching levels wasn't really difficult. I was able to apply what I learned from the tutorial onto my MVP.
 
+4/14/2024
+* This week I didn't spend time learning about my tool. I spent most of the time working on the MVP. For next week, I'm deciding to find a tutorial that teaches how to make enemies follow player around the map.
+  
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
