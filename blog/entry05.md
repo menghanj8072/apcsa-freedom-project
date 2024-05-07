@@ -11,7 +11,7 @@ I added 2 components to the player sprite: Rigidbody 2D and Box Collider 2D. Wha
 
 ### Coin
 
-## Player Health
+### Player Health
 
 
 
