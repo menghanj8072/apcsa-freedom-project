@@ -4,7 +4,28 @@
 After the last blog, I have been spending time following tutorials on how to create animation and how to switch levels in unity and also working on my MVP. In the tutorial about how to create animation, I learned that I need to create animated sprites first in order to turn them into animation in unity. So I spent some time drawing animated sprites and importing each frame into unity. I designed my sprites on https://www.piskelapp.com/p/create/sprite. After importing them, I first created an animation for the player sprite. I drag the sprites onto the animation panel and adjust the speed of animation by changing the frames per second. When I finished adding animation to the player sprite, I moved on and added animation for the enemy sprites. Once I finished with animations, I moved on adding components to my sprites and code.
 
 ### Player Sprite
-I added 2 components to the player sprite: Rigidbody 2D and Box Collider 2D. What rigidbody2D does is it allows the gameobject to act under the control of physics and for box collider 2D is used for collision physics. After doing that I created a script for player and started adding code. My goal for the player is being able to move, jump, lose health and collect coins. 
+I added 2 components to the player sprite: Rigidbody 2D and Box Collider 2D. What rigidbody2D does is it allows the gameobject to act under the control of physics and for box collider 2D is used for collision physics. After doing that I created a script for the player sprite and started adding code. My goal for the player is to make it move and jump. 
+```C#
+ void Update()
+ {
+
+     body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
+
+     if (Input.GetKey(KeyCode.Space))
+     {
+         Jump();
+     }
+}
+
+   private void Jump()
+ {
+     body.velocity = new Vector2(body.velocity.x, speed);
+ }
+
+```
+
+The `Update()` method runs constantly and will run every line of code inside it, every single frame. The `body` is a variable that I made to store the velocity values. To make the player move, I have to use a vector. Since the game is a 2D game, I will have to use vector2. Vector2 has 2 properties: X-axis and Y-axis. I used `Input.GetAxis("Horizontal")` for the x value because this is a value defined by unity. When the player presses the left key, `Input.GetAxis("Horizontal")` will return a negative x value and the player presses right key, it will return a positive x value. I multiplied it by `speed` which is a float variable I made and the default value for it is 10. For the y-axis, I didn't want to change the velocity of it, so I just wrote `body.velocity.y`. Next to make the player jump, I created a 
+private void method named `Jump`. Inside this method, I also used vector2 and this time I didn't change the x value, instead I changed the y value. I set the y value to the value of speed. I went back to the `update` method and added a if statement. The if statement will check if the player pressed "space" key, and will run he jump method if the conditional is true.
 
 ### Slime Sprite (Enemy)
 
