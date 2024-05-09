@@ -31,10 +31,29 @@ private void method named `Jump`. Inside this method, I also used vector2 and th
 
 
 ### Coin
+Coin is a collectable item that the player have to collect to pass the level. For coins sprites, I created a script for displaying how many coins the player had already collect.
+```C#
+//Inside coin script
+void Update()
+{
+    coinText.text = "Coin: " + coinCount.ToString();
+    if (coinCount == 3)
+    {
+        SceneManager.LoadScene("scene2");
+    }
+____________________________________________________________________________
 
-### Player Health
-
-
+//Inside player script
+ void OnTriggerEnter2D(Collider2D collider)
+ {
+     if (collider.gameObject.CompareTag("coin"))
+     {
+         Destroy(collider.gameObject);
+         cc.coinCount++;
+     }
+}
+```
+`coinText` is a variable that I created to display the text. `CoinCount` is a variable for storing the amount of coins collected. To know how many coins are collected, I used a `OnTriggerEnter2D` method inside the player script. So when the player collide with the coin, the coin sprite will be destroyed and the coin count will increase. When the player finished collecting all three coins on the map, the ` SceneManager.LoadScene("scene2");` will bring the player to the next level. When I finished this part, I applied the concept I used for coin to player health because they are similar.
 
 I’m now in step **5 creating a prototype** and step **6 tests and evaluating the prototype** in the **engineering design process.** One new skill I learned is debugging because when I finished my mvp, I noticed there were many bugs in my game. I have debugged some bugs, but I still need to fix more when I’m working on beyond MVP. Fixing those bugs will give the player a good experience when playing the game.
 
