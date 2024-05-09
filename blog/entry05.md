@@ -28,7 +28,35 @@ The `Update()` method runs constantly and will run every line of code inside it,
 private void method named `Jump`. Inside this method, I also used vector2 and this time I didn't change the x value, instead I changed the y value. I wanted the jump value to be same as speed, so I just set the y value to speed. I went back to the `update` method and added a if statement. The if statement will check if the player pressed "space" key, and will run he jump method if the conditional is true.
 
 ### Slime Sprite (Enemy)
+For the enemy sprite, I wanted to make it patrolling, but I'm not sure how to do it so I went to search for a tutorial and I found this tutorial named [Simple 2D Enemy Patrolling Unity tutorial](https://youtu.be/RuvfOl8HhhM?si=GWXrgTk7Pkcn6HNB). I first have to create 2 gameobjects. These 2 gameobjects will be the points where the enemy will patroll. Next I will have to check if the current position of the enemy is the same position as the point where the enemy will be heading to. If the position is different then the enemy will move to opposie direction.
+```C#
+ void Update()
+ {
+     Vector2 point = currentPosition.position - transform.position;
 
+     if(currentPosition == positionA.transform)
+     {
+         body.velocity = new Vector2(-speed, 0);
+     }
+     else
+     {
+         body.velocity = new Vector2(speed, 0);
+     }
+}
+```
+This is not completely done because the enemy will not stop moving to one direction. So I have to check the distance between the enemy's position and the position where the enemy is heading to and if the position of the enemy is the same as the position of where the enemy will be heading to.
+```C#
+ if(Vector2.Distance(transform.position, currentPosition.position) < 0.9f && currentPosition == positionA.transform)
+ {
+     currentPosition = positionB.transform;
+ }
+
+ if (Vector2.Distance(transform.position, currentPosition.position) < 0.9f && currentPosition == positionB.transform)
+ {  
+     currentPosition = positionA.transform;
+ }
+
+```
 
 ### Coin
 Coin is a collectable item that the player have to collect to pass the level. For coins sprites, I created a script for displaying how many coins the player had already collect.
