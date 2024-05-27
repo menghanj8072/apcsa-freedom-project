@@ -1,1 +1,205 @@
+// Player 
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    private Rigidbody2D body;
+    public CoinC cc;
+    public HP hp;
+    public bool isGround;
+    [SerializeField] private float speed;
+    
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        body = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        body.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, body.velocity.y);
+
+        if (Input.GetKey(KeyCode.Space) && isGround)
+        {
+            Jump();
+        }
+
+        if (Input.GetAxis("Horizontal") > 0.1f)
+        {
+            transform.localScale = Vector3.one;
+        } else if(Input.GetAxis("Horizontal") < -0.1f)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+    }
+
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("coin"))
+        {
+            Destroy(collider.gameObject);
+            cc.coinCount++;
+        }
+
+       /* if (collider.gameObject.CompareTag("slime"))
+        {
+            hp.hpCount--;
+        }
+       */
+    }
+
+
+
+
+    private void Jump()
+    {
+        body.velocity = new Vector2(body.velocity.x, 9);
+        isGround = false;
+    }
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGround = true;
+        }
+
+        if (collision.gameObject.CompareTag("slime"))
+        {
+            hp.hpCount--;
+        }
+
+    }
+
+
+}
+
+//Enemy
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Enemy : MonoBehaviour
+{
+    public GameObject positionA;
+    public GameObject positionB;
+    public float speed;
+    private Rigidbody2D body;
+    private Transform currentPosition;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        body = GetComponent<Rigidbody2D>();
+        currentPosition = positionA.transform;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector2 point = currentPosition.position - transform.position;
+
+        if(currentPosition == positionA.transform)
+        {
+            body.velocity = new Vector2(-speed, 0);
+        }
+        else
+        {
+            body.velocity = new Vector2(speed, 0);
+        }
+
+        if(Vector2.Distance(transform.position, currentPosition.position) < 0.9f && currentPosition == positionA.transform)
+        {
+
+            currentPosition = positionB.transform;
+            //transform.localScale = Vector3.one;
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        if (Vector2.Distance(transform.position, currentPosition.position) < 0.9f && currentPosition == positionB.transform)
+        {
+         
+            currentPosition = positionA.transform;
+            transform.localScale = Vector3.one;
+            //transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+    }
+}
+
+//Coin
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class CoinC : MonoBehaviour
+{
+    public int coinCount;
+    public Text coinText;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        coinText.text = "Coin: " + coinCount.ToString();
+
+
+        if (coinCount == 3)
+        {
+            SceneManager.LoadScene("scene2");
+
+        }
+
+       
+
+    }
+
+    
+    
+
+}
+
+//HP
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class HP : MonoBehaviour
+{
+    public int hpCount;
+    public Text hpText;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        hpText.text = "HP: " + hpCount.ToString();
+
+        if (hpCount == 0)
+        {
+            SceneManager.LoadScene("GameOver Scene");
+
+        }
+    }
+}
 
