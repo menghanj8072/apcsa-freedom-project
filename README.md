@@ -1,16 +1,16 @@
 # APCSA Freedom Project
-by **X**
+by **MengHan Jiang**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for AP Computer Science A is a year-long project all about making anything using technology.
 
-For my project, I chose to independently study **X** in order to help me make **X**.
+For my project, I chose to independently study **Unity** in order to help me make **MVP for my project**.
 
 ## Links
 
 [Product]()
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1qY2NshZXuGptx4GbHIlII8QKRh3Xx4VYfkNkhpxLmto/edit)
 
 ## Implications
 ##### PROS
