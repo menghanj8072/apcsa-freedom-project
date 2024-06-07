@@ -4,7 +4,7 @@ by **MengHan Jiang**
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for AP Computer Science A is a year-long project all about making anything using technology.
 
-For my project, I chose to independently study **Unity** in order to help me make **MVP for my project**.
+For my project, I chose to independently study **Unity** in order to help me make **my freedom project which is a 2D platformer game**.
 
 ## Links
 
@@ -14,10 +14,11 @@ For my project, I chose to independently study **Unity** in order to help me mak
 
 ## Implications
 ##### PROS
-* 
+* The project is a friendly game that is suitable for any age.
+* Helps people improve their problem solving skills.
+* Reduce boredom.
 ##### CONS
-* 
-
+* For now, the game still have some bugs that are not fixed.
 
 ## Blog
 Below you will find my blog about how I made my project.
